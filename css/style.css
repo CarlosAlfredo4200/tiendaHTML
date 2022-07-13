@@ -41,7 +41,13 @@ a{
 }
 img{
     max-width: 100%;
+
     display: block;
+}
+.fresas{
+     
+    height: 100;
+    object-fit: cover;
 }
 
 .contenedor-navegacion{
@@ -80,7 +86,7 @@ h1  span{
      
 }
 .hero{
-    background-image: url('/images/principal.jpg');
+    background-image: url('https://www.nicepng.com/png/detail/97-970436_frutas-hortalizas-y-verduras-imagens-de-frutas-png.png');
     height: 550px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,6 +97,7 @@ h1  span{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap:20px;
+    
 }
 .listado-link a{
     text-align: center;
@@ -112,7 +119,7 @@ h1  span{
 
 .sobre-nosotros{
     margin-top: 15px;
-    background-image: linear-gradient(to right, transparent 50%, rgb(69, 155, 225) 50%, rgb(69, 155, 225) 100%), url(/images/nosotros.jpg) ;
+    background-image: linear-gradient(to right, transparent 50%, rgb(69, 155, 225) 50%, rgb(69, 155, 225) 50%), url('https://gcdn.lanetaneta.com/wp-content/uploads/2019/02/1551200274_Frutas-y-verduras-gratis-en-el-Este-de-Los-%C3%81ngeles-780x405.jpg') ;
     padding: 10rem 0;
     background-position:left center;
     background-repeat: no-repeat;
@@ -122,6 +129,7 @@ h1  span{
 .contenido-nosotros{
     display: grid;
     grid-template-columns: 1fr 2fr;
+     
      
 }
 
@@ -139,6 +147,7 @@ h1  span{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 4rem;
+    
 }
 .texto-nosotros{
     grid-column: 2/3;
@@ -167,17 +176,19 @@ listado de productos */
     grid-column-end: 7;
     display: grid;
     grid-template-columns: 3fr 1fr;
+    border: 1px solid rgb(218, 216, 216);
 }
 
 .producto:nth-child(1) img {
-     height: 43rem;
-     width: 100%;
-     object-fit: cover;
+    height: 43rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .producto:nth-child(2) {
     grid-column-start: 1;
     grid-column-end: 4;
+     
 }
 
 .producto:nth-child(2) img,
@@ -185,11 +196,13 @@ listado de productos */
     height: 30rem;
     width: 100%;
     object-fit: cover;
+    border: 1px solid rgb(218, 216, 216);
 }
- 
+
 .producto:nth-child(3) {
     grid-column-start: 4;
     grid-column-end: 7;
+    border: 1px solid rgb(218, 216, 216);
 }
 
 
@@ -197,14 +210,17 @@ listado de productos */
 .producto:nth-child(4) {
     grid-column-start: 1;
     grid-column-end: 3;
+    border: 1px solid rgb(218, 216, 216);
 }
 .producto:nth-child(5) {
     grid-column-start: 3;
     grid-column-end: 5;
+    border: 1px solid rgb(218, 216, 216);
 }
 .producto:nth-child(6) {
     grid-column-start: 5;
     grid-column-end: 7;
+    border: 1px solid rgb(218, 216, 216);
 }
 
 
