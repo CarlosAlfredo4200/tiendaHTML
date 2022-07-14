@@ -1,12 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     line-height: 2;
+     
 }
 html{
     box-sizing: border-box;
@@ -87,7 +89,7 @@ h1  span{
 }
 .hero{
     background-image: url('https://www.nicepng.com/png/detail/97-970436_frutas-hortalizas-y-verduras-imagens-de-frutas-png.png');
-    height: 550px;
+    height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -108,6 +110,7 @@ h1  span{
     transition: all 0.5s ease ;
     
 }
+ 
 .listado-link a:hover{
     background-color: rgb(181, 181, 183);
     color: white;
@@ -119,11 +122,11 @@ h1  span{
 
 .sobre-nosotros{
     margin-top: 15px;
-    background-image: linear-gradient(to right, transparent 50%, rgb(69, 155, 225) 50%, rgb(69, 155, 225) 50%), url('https://gcdn.lanetaneta.com/wp-content/uploads/2019/02/1551200274_Frutas-y-verduras-gratis-en-el-Este-de-Los-%C3%81ngeles-780x405.jpg') ;
+    background-image: linear-gradient(to right, transparent 10%, rgb(248, 248, 248) 100%, rgb(255, 255, 255) 100%), url('https://img.freepik.com/foto-gratis/legumbres-frutas-pisos-cemento-negro_1150-20000.jpg?w=2000') ;
     padding: 10rem 0;
     background-position:left center;
     background-repeat: no-repeat;
-    background-size: 100%, 120rem;
+    background-size: 50%, 120rem;
 }
 
 .contenido-nosotros{
@@ -162,7 +165,7 @@ listado de productos */
 
 .contenido-principal{
     padding-top: 30px ;
-    
+     
 }
 .listado-productos {
     display: grid;
@@ -171,7 +174,10 @@ listado de productos */
     row-gap: 2px;
 }
 
+ 
 .producto:nth-child(1) {
+    height: 500px;
+    object-fit: cover;
     grid-column-start:1;
     grid-column-end: 7;
     display: grid;
@@ -180,7 +186,7 @@ listado de productos */
 }
 
 .producto:nth-child(1) img {
-    height: 43rem;
+    height: 31.2rem;
     width: 100%;
     object-fit: cover;
 }
@@ -213,10 +219,19 @@ listado de productos */
     border: 1px solid rgb(218, 216, 216);
 }
 .producto:nth-child(5) {
+     
     grid-column-start: 3;
     grid-column-end: 5;
     border: 1px solid rgb(218, 216, 216);
 }
+
+.producto:nth-child(5) img {
+    height: 350px;
+}
+.producto:nth-child(4) img {
+    height: 350px;
+}
+
 .producto:nth-child(6) {
     grid-column-start: 5;
     grid-column-end: 7;
